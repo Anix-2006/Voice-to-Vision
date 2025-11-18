@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ISL Translator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>ISL Text-to-Sign Translator</h1>
+    <p class="subtitle">Supports English & Hindi</p>
+
+    <textarea id="inputText" placeholder="Type your sentence..."></textarea>
+
+    <button onclick="translateText()">Translate</button>
+
+    <div id="tokensBox"></div>
+
+    <video id="videoPlayer" width="400" controls></video>
+
+    <div class="controls">
+      <button onclick="playNext()">Next</button>
+      <button onclick="playAll()">Play All</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
